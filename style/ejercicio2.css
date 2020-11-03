@@ -1,0 +1,42 @@
+#contenedor{
+    width: 80%;
+    border: black 2px solid;
+    margin: auto;
+    overflow: hidden;
+    padding: .5em;
+    text-align: center;
+}
+
+input{
+    margin: .4em;
+}
+
+table{
+    width: 65%;
+    border: black 1px solid;
+    margin: auto;
+    margin-top: 1em;
+}
+
+tr,td{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+button{
+    margin: 1em;
+}
+
+.jugador1{
+    background-color: blue;
+}
+
+.jugador2{
+    background-color: red;
+}
+
+.reiniciar{
+    background-color: white;
+
+}

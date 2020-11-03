@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../style/ejercicio2.css">
+    <script src="../scripts/ejercicio2.js"></script>
+    <title>Tres en raya</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <input type="text" name="jugador1" id="jugador1" placeholder="Jugador 1">
+        <br>
+        <input type="text" name="jugador2" id="jugador2" placeholder="Jugador 2">
+        <br>
+
+        <button onclick="iniciarJuego()">Iniciar Partida</button>
+        <table>
+            <tr>
+                <td id="c0" onclick="jugar(0)"></td>
+                <td id="c1" onclick="jugar(1)"></td>
+                <td id="c2" onclick="jugar(2)"></td>
+            </tr>
+
+            <tr>
+                <td id="c3" onclick="jugar(3)"></td>
+                <td id="c4" onclick="jugar(4)"></td>
+                <td id="c5" onclick="jugar(5)"></td>
+            </tr>
+
+            <tr>
+                <td id="c6" onclick="jugar(6)"></td>
+                <td id="c7" onclick="jugar(7)"></td>
+                <td id="c8" onclick="jugar(8)"></td>
+            </tr>
+        </table>
+
+        <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+    </div>
+
+</body>
+
+</html>
